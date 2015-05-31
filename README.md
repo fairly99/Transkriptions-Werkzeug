@@ -10,6 +10,8 @@ SC - 4, MK - 4, DS - 4, MF - 4
 KW 21:
 SC - 10, MK - 10, DS - 10, MF - 10
 KW 22:
+SC - 7, MK - 7, DS - 7, MF - 7
+KW 23: 
 SC - , MK - , DS - , MF - 
 
-Letzte Änderung: 25.05.2015, 17:31
+Letzte Änderung: 31.05.2015, 17:54
