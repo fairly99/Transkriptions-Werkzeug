@@ -1,0 +1,41 @@
+      #titles {
+        font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+      }
+
+      #titles, [id*="waveform-visualiser"] {
+        margin: 24px auto;  
+        width: 1000px;
+      }
+
+
+      [id*="waveform-visualiser"] [class*="-container"] {
+        box-shadow: 3px 3px 20px #919191;
+        margin: 0 0 24px 0;
+        -moz-box-shadow: 3px 3px 20px #919191;
+        -webkit-box-shadow: 3px 3px 20px #919191;
+        line-height: 0;
+      }
+
+      .overview-container {
+        height: 85px;
+      }
+
+      #second-waveform-visualiser-container [class*="-container"] {
+        background: #111;
+      }
+      
+
+      #demo-controls {
+        margin: 0 auto 24px auto;
+        width: 1000px;
+      }
+
+      #demo-controls > * {
+        vertical-align: middle;
+      }
+
+      #demo-controls button {
+        background: #fff;
+        border: 1px solid #919191;
+        cursor: pointer;
+      }

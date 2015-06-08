@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Peaks.js Demo Page</title>
+    <link rel="stylesheet" href="res/css/styles.css">
+  </head>
+  <body>
+
+      <div id="titles">
+        <h1>Peaks.js Frontend Demo</h1>
+      </div>
+
+      <div id="first-waveform-visualiser-container"></div>
+
+      <div id="demo-controls">
+        <audio controls=controls>
+          <source src="./test_data/sample.mp3" type="audio/mpeg">
+          <source src="./test_data/sample.ogg" type="audio/ogg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <button data-action="zoom-in">zoom in</button>
+        <button data-action="zoom-out">zoom out</button>
+        <button data-action="add-segment">Add a Segment at current time</button>
+        <button data-action="add-point">Add a Point at current time</button>
+        <button data-action="log-data">Log segments/points</button>
+      </div>
+
+      <script src="libs/require.js"></script>
+      <script src="src/AudioTool.js"></script>
+      <script src="src/StartPeaks.js"></script>
+      <script src="src/MainController.js"></script>
+      <script src="src/MainModel.js"></script>
+      <script src="src/WaveView.js"></script>
+      <script src="src/MetaDateView.js"></script>
+      
+      
+      <script>
+      AudioTool.init();
+      </script>
+  </body>
+</html>
