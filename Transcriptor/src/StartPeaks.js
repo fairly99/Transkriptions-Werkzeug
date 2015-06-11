@@ -21,8 +21,8 @@ AudioTool.StartPeaks = (function() {
             container: document.getElementById('first-waveform-visualiser-container'),
             mediaElement: document.querySelector('audio'),
             dataUri: {
-              arraybuffer: 'test_data/sample.dat',
-              json: 'test_data/sample.json'
+              arraybuffer: 'test_data/tycho.dat'//,
+              //json: 'test_data/sample.json'
             },
             keyboard: false
           };
