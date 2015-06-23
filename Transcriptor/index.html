@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> 
     <meta charset="utf-8">
     <title>Peaks.js Demo Page</title>
     <link rel="stylesheet" href="res/css/styles.css">
@@ -20,13 +20,14 @@
           Your browser does not support the audio element.
         </audio>
 
-        <button data-action="zoom-in">zoom in</button>
-        <button data-action="zoom-out">zoom out</button>
-        <button data-action="add-segment">Add a Segment at current time</button>
-        <button data-action="add-point">Add a Point at current time</button>
+        <button data-action="zoom-in" id="zoomInButton">zoom in</button>
+        <button data-action="zoom-out"id="zoomOutButton">zoom out</button>
+        <button data-action="add-segment" id="segmentButton">Add a Segment at current time</button>
+        <button data-action="add-point" id="pointButton">Add a Point at current time</button>
         <button data-action="log-data">Log segments/points</button>
       </div>
 
+      <script src="libs/jquery-2.0.3.min.js"></script>
       <script src="libs/require.js"></script>
       <script src="src/AudioTool.js"></script>
       <script src="src/StartPeaks.js"></script>
