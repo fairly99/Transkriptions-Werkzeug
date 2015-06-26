@@ -34,21 +34,34 @@ define([
         color: color || getSegmentColor(),
         editable: editable
       };
-
+ 
       var segmentZoomGroup = new Kinetic.Group();
       var segmentOverviewGroup = new Kinetic.Group();
 
       var segmentGroups = [segmentZoomGroup, segmentOverviewGroup];
 
       var menter = function (event) {
-        this.parent.label.show();
-        this.parent.view.segmentLayer.draw();
+            this.parent.label.show();
+            this.parent.view.segmentLayer.draw();
       };
 
       var mleave = function (event) {
-        this.parent.label.hide();
-        this.parent.view.segmentLayer.draw();
+          this.parent.label.hide();
+          this.parent.view.segmentLayer.draw();
       };
+ 
+      var mclick=function(event) {
+           
+          if(event.target.attrs.fill!="rgba(200,200,200,1)"){
+          //var farb = Math.floor(Math.random()*255);
+          event.target.attrs.fill="rgba(200,200,200,1)";//"#"+((1<<24)*Math.random()|0).toString(16);
+          }
+          else{
+           event.target.attrs.fill="rgba(0,0,0,1)"; 
+          }
+          //console.log("nachlurn",event.target);
+      };
+
 
       segmentGroups.forEach(function(segmentGroup, i){
         var view = self.views[i];
@@ -57,6 +70,7 @@ define([
 
         segmentGroup.waveformShape.on("mouseenter", menter);
         segmentGroup.waveformShape.on("mouseleave", mleave);
+        segmentGroup.waveformShape.on("dblclick",mclick);
 
         segmentGroup.add(segmentGroup.waveformShape);
 
@@ -105,7 +119,7 @@ define([
       }
 
       // Label
-      // segment.overview.label.setX(overviewStartOffset);
+       segment.overview.label.setX(overviewStartOffset);
 
       SegmentShape.update.call(segment.overview.waveformShape, peaks.waveform.waveformOverview, segment.id);
       segment.overview.view.segmentLayer.draw();

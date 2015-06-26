@@ -8,26 +8,38 @@ AudioTool.MainController = (function() {
 	waveView= AudioTool.WaveView.init();
 	mainModel=AudioTool.MainModel;
 	mainModel.init(); 
-	console.log(mainModel);
 	$(mainModel).on("waveInitialised",waveShown);
 	$(waveView).on("pointMade",makeAPoint);
-	$(mainModel).on("pointSaved",actual);
+	$(mainModel).on("pointSaved",twoPointsCombine);
 	$(waveView).on("removePoints",deletePoints);
+	$(waveView).on("onWaveClicked",waveClicker);
+	$(mainModel).on("trackClicked",onTrackClicked);
+	//$(waveView).on("trackSelected",onTrackSelected);
+	//$(mainModel).on("trackNotClicked",onTrackNotClicked);
+	}; 
+  
+	var onTrackNotClicked=function(event,tracks){
+		waveView.setStandardColor(tracks);
+	}; 
+
+	var onTrackClicked=function(event,track) {
+		//console.log("aufNenTrackGeklickt");
+		waveView.colorSelectedWave(track);
+	};
+	
+	var waveClicker=function (event,time) {
+		mainModel.compareIfSegment(time);	
 	};
 
 	var deletePoints=function(event){
 		mainModel.setCounterAndRemove();
 	};
 
-	var actual=function(event,pointCounter,allPoints){
-			console.log("pointCounter",pointCounter);
-			console.log("allPointsArray",allPoints);
+	var twoPointsCombine=function(event,pointCounter,allPoints){
 			if(pointCounter%2!=0&&pointCounter>0){
 				waveView.combinePoints(pointCounter,allPoints);	
-			}
-			else{
-				console.log("düdü");
-			}
+			} 
+			
 	};
 
 	var waveShown=function(event,peaks){
