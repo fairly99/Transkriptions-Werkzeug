@@ -5,8 +5,9 @@ AudioTool.WaveView = (function() {
 	var counter = 0; 
 	var segmentCounter=0;
 	var realColor=null;
-	var activeColor='rgba(200,200,200,1)';
+	var activeColor='rgba(0,0,0,1)';
 	var segmentActive=false;
+
 
 	var init = function() {
 	$("#segmentButton").on("click",makeSegment);
@@ -24,7 +25,8 @@ AudioTool.WaveView = (function() {
 		
 		}*/
 		//console.log(event.target); 
-		$(that).trigger("onWaveClicked",[peaksInstance.time.getCurrentTime()]); 
+		$(that).trigger("onWaveClicked",[peaksInstance.time.getCurrentTime()]);
+
 	};
 
 	var chooseAndDeleteSegment=function(event) {
@@ -61,14 +63,19 @@ AudioTool.WaveView = (function() {
 
 	var makeSegment=function(event,color,start,end){
 			segmentCounter++;
-            var segment = {
+            var segment = {	
               startTime: peaksInstance.time.getCurrentTime(),
               endTime: peaksInstance.time.getCurrentTime() + 5,
               editable: true,
               labelText: "Track "+ segmentCounter +"\n" +"Startzeit: " + peaksInstance.time.getCurrentTime()
             };	
           
-            peaksInstance.segments.add([segment]);       
+
+            peaksInstance.segments.add([segment]); 
+        	allTracks=peaksInstance.segments.getSegments();
+			for(var i=0;i<allTracks.length;i++){
+			allTracks[i].active=false;
+			}       
            
 	};
 
@@ -87,6 +94,7 @@ AudioTool.WaveView = (function() {
 		segmentCounter++;
 		if(allPoints[counter-1].timestamp>=allPoints[counter].timestamp){
 			var segment = {
+				active:false,
               startTime: allPoints[counter].timestamp,
               endTime: allPoints[counter-1].timestamp, 
               editable: true,
@@ -98,6 +106,7 @@ AudioTool.WaveView = (function() {
 		}
 		else{
 		   var segment = {
+		   	active: false,
               startTime: allPoints[counter-1].timestamp,
               endTime: allPoints[counter].timestamp,
               editable: true,
@@ -109,65 +118,26 @@ AudioTool.WaveView = (function() {
       }
 
 	}; 
-
-	var colorSelectedWave = function (track) {
-		if(track.overview.waveformShape.attrs.fill!="rgba(200,200,200,1)"){
-		track.overview.waveformShape.attrs.fill="rgba(200,200,200,1)";
-		}
-		else{
-		track.overview.waveformShape.attrs.fill="rgba(0,0,0,1)";	
-		}
-		console.log(track);
-				/*if(segmentActive==false){
-		realColor=track.color;
-		track.color=activeColor;
-		//track.overview.label.textArr[0]="rgba(200,200,200,1)";
-		peaksInstance.segments.remove(track);
-		peaksInstance.segments.add([track]);
-		segmentActive=true;
-		}
-		else{
-			for(var i=0;i<allTracks.length;i++){
-				if(allTracks[i].color=activeColor){
-			var segment = {
-			  color:"rgba(0,0,0,1)",	
-              startTime: allTracks[i].startTime,
-              endTime: allTracks[i].endTime,
-              editable: true,
-              labelText: allTracks[i].labelText
-            };
-            peaksInstance.segments.remove(allTracks[i]);
-			peaksInstance.segments.add([segment]);
-			segmentActive=false;
-			}
-		}
-		track.color=activeColor;
-		//track.overview.label.textArr[0]="rgba(200,200,200,1)";
-		peaksInstance.segments.remove(track);
-		peaksInstance.segments.add([track]);
-		segmentActive=true;
-		}*/
-
-	};
-	var setStandardColor=function(tracks){
-		//console.log("abwählen???");
-		/*
+ 
+	var colorSelectedWave = function (track,tracks) {
 		allTracks=tracks;
-		for(var i=0;i<tracks.length;i++){
-			if(tracks[i].overview.waveformShape.attrs.fill==activeColor){
-			var segment = {
-			  color: "rgba(0,0,0,1)",
-              startTime: tracks[i].startTime,
-              endTime: tracks[i].endTime,
-              editable: true,
-              labelText: tracks[i].labelText
-            };
-            peaksInstance.segments.remove(tracks[i]);
-			peaksInstance.segments.add([segment]);
-			}
+		if(track.active==true){
+			track.zoom.waveformShape.attrs.fill=track.color;
+			track.active=false;
+		}else{
+		for(var i = 0;i< allTracks.length;i++){
+			allTracks[i].zoom.waveformShape.attrs.fill=allTracks[i].color;
+			allTracks[i].active=false;
 		}
-		segmentActive=false;
-		*/
+		track.active=true;
+		track.zoom.waveformShape.attrs.fill=activeColor;		
+	}
+	console.log(track);
+	};
+
+	var setStandardColor=function(tracks,track){
+	 
+		
 	};
 
 	that.init = init;

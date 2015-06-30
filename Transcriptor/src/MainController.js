@@ -15,16 +15,17 @@ AudioTool.MainController = (function() {
 	$(waveView).on("onWaveClicked",waveClicker);
 	$(mainModel).on("trackClicked",onTrackClicked);
 	//$(waveView).on("trackSelected",onTrackSelected);
-	//$(mainModel).on("trackNotClicked",onTrackNotClicked);
-	}; 
-  
-	var onTrackNotClicked=function(event,tracks){
-		waveView.setStandardColor(tracks);
+	$(mainModel).on("trackNotClicked",onTrackNotClicked);
+	};  
+    
+	var onTrackNotClicked=function(event,tracks,track){
+		waveView.setStandardColor(tracks,track);
 	}; 
 
-	var onTrackClicked=function(event,track) {
+	var onTrackClicked=function(event,track,allTracks) {
 		//console.log("aufNenTrackGeklickt");
-		waveView.colorSelectedWave(track);
+		//console.log(track);
+		waveView.colorSelectedWave(track,allTracks);
 	};
 	
 	var waveClicker=function (event,time) {
@@ -40,7 +41,7 @@ AudioTool.MainController = (function() {
 				waveView.combinePoints(pointCounter,allPoints);	
 			} 
 			
-	};
+	}; 
 
 	var waveShown=function(event,peaks){
 		waveView.show(peaks);

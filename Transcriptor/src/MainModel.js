@@ -21,7 +21,7 @@ AudioTool.MainModel = (function() {
         });
 
         require(['peaks'], function(Peaks){
-          var options = {
+          var options = { 
             container: document.getElementById('first-waveform-visualiser-container'),
             mediaElement: document.querySelector('audio'),
             dataUri: {
@@ -30,8 +30,8 @@ AudioTool.MainModel = (function() {
             },
             zoomLevels: [512, 1024, 2048, 4096],
             keyboard: false,
-            randomizeSegmentColor: false,
-            segmentColor:"rgba(0,0,0,1)"
+            randomizeSegmentColor: true,
+             
             
           };
 
@@ -63,17 +63,18 @@ AudioTool.MainModel = (function() {
    
   var setCounterAndRemove=function(){
     setPoints.length=0;
-    pointCounter=-1;
-  }; 
+    pointCounter=-1; 
+  };  
   var compareIfSegment=function(time){
       tracks=peaksInstance.segments.getSegments();
+      timeToCheck=peaksInstance.time.getCurrentTime();
       for(var i=0;i<tracks.length;i++){
-        if(time>=tracks[i].startTime&&time<=tracks[i].endTime){
+        if(timeToCheck>=tracks[i].startTime&&timeToCheck<=tracks[i].endTime){
           //console.log("dazwischen");
-          $(that).trigger("trackClicked",[tracks[i]]);
+          $(that).trigger("trackClicked",[tracks[i],tracks]);
         }
-        else{ 
-           //$(that).trigger("trackNotClicked",[tracks]);
+        else{
+          $(that).trigger("trackNotClicked",[tracks,tracks[i]]);
           //console.log("frei");
         }
       }

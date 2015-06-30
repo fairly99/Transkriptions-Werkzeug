@@ -5,34 +5,33 @@
     <title>Peaks.js Demo Page</title>
     <link rel="stylesheet" href="res/css/styles.css">
   </head>
-  <body>
-
+  <body> 
+ 
       <div id="titles">
         <h1>Peaks.js Frontend Demo</h1>
-      </div>
+      </div> 
 
       <div id="first-waveform-visualiser-container"></div>
-
+ 
       <div id="demo-controls">
         <audio controls=controls>
           <source src="./test_data/tycho.mp3" type="audio/mpeg">
           <!--<source src="./test_data/sample.ogg" type="audio/ogg">-->
           Your browser does not support the audio element.
-        </audio>
-
+        </audio> 
+ 
         <button data-action="zoom-in" id="zoomInButton">zoom in</button>
         <button data-action="zoom-out"id="zoomOutButton">zoom out</button>
-        <button data-action="add-segment" id="segmentButton">Add a Segment at current time</button>
-        <button data-action="add-point" id="pointButton">Add a Point at current time</button>
+        <button data-action="add-segment" id="segmentButton">Track setzen</button>
+        <button data-action="add-point" id="pointButton">Punkt setzen</button>
         <button data-action="log-data">Log segments/points</button>
+        <button id="deleteSegment">Grau markierten Tracks löschen</button>
       </div>
 
-      
-      <div id="myDynamicTable">
-        <button type="button" id="createButton">Werte ändern</button>
-         <button id="plusButton">+</button>
-         <button id="stopChangingButton">Ändern beenden</button>
-      </div>
+      <form class="form-horizontal" id="myBigForm" role="form"   action="sendToDataBase.php" method="post" >
+      <input type="text"  name="vermittler" class="vermittler1"id="vermittler">
+      <button  class="btn btn-default"id="sendToDatabase" >senden</button>
+      </form>
 
       <script src="libs/jquery-2.0.3.min.js"></script>
       <script src="libs/require.js"></script>
