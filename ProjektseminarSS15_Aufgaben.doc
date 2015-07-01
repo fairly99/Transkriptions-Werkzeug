@@ -1,0 +1,142 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype DejaVu Sans;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;}
+{\stylesheet
+{\s6\fi-431\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-431\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-431\li720 Arrowhead List;}
+{\s27\fi-431\li720\sbasedon28 Lower Roman List;}
+{\s29\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s30\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s12\fi-431\li720 Diamond List;}
+{\s9\fi-431\li2880\sbasedon28\snext28 Contents 4;}
+{\s8\fi-431\li2160\sbasedon28\snext28 Contents 3;}
+{\s31\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s32\fi-431\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s4\fi-431\li720 Bullet List;}
+{\s5\tx1584\sbasedon29\snext28 Chapter Heading;}
+{\s35\fi-431\li720 Square List;}
+{\s11\fi-431\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s37\fi-431\li720 Tick List;}
+{\s24\fi-431\li720 Heart List;}
+{\s40\fi-431\li720\sbasedon32 Upper Roman List;}
+{\s39\fi-431\li720\sbasedon32 Upper Case List;}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-431\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs24 Normal;}
+{\s26\fi-431\li720\sbasedon32 Lower Case List;}
+{\s2\li1440\ri1440\sa120\sbasedon28 Block Text;}
+{\s33\f2\sbasedon28 Plain Text;}
+{\s34\tx1584\sbasedon29\snext28 Section Heading;}
+{\s25\fi-431\li720 Implies List;}
+{\s3\fi-431\li720 Box List;}
+{\s36\fi-431\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s38\fi-431\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1{\author Laptop}}\deftab720\viewkind1\paperw11905\paperh16837\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch Praxisseminar SS 2015\tab \tab 01.07.2015}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb440\sa60\s20\itap0{\s20\f1\fs34\b\lang1031{\*\listtag0}\abinodiroverride\ltrch Transkriptions-Werzeug Hoerburger-Aufnahmen}{\s20\f1\fs34\b\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb440\sa60\s21\itap0{\s21\f1\fs28\b\lang1031{\*\listtag0}\abinodiroverride\ltrch Funktionen, die eingebaut werden sollten:}{\s21\f1\fs28\b\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 1. Upload eines Files:}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 2. Erzeugung von Tracks:}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab 1. Durch Setzen von zwei Punkten}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab 2. Durch automatisches Setzen von zwei Punkten (mit angegeben Abstand)}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab 3. }{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 3. Manipulation von existierenden Tracks:}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - \'c4ndern des Start- oder Endpunkts}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Track l\'f6schen}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 4. Auswahl eines Tracks:}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Durch Klick auf einem Track, wird diese ausgew\'e4hlt}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Durch Klick auf einem Track aus der Meta-Daten-Liste}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 5. Meta-Daten Verwaltung}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Einf\'fcgen/\'c4ndern von Informationen \'fcber existierende Platzhalter}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Einf\'fcgen eines neuen Platzhalters (Tags)}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 6. R\'fcckg\'e4ngig-Funktion(?)}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 7. Projekt-Verwaltung}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Auswahl zwischen bereits existierende Files aus einem Projekt (z.B. Hoerburger-Aufnahmen)}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch 8. Datenbank-Verwaltung}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - automatische Speicherung der Nutzereingaben auf dem Server}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch \tab - Identifizierung des Files \'fcber eine ID (bereits beim Upload)}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb440\sa60\s21\itap0{\s21\f1\fs28\b\lang1031{\*\listtag0}\abinodiroverride\ltrch Struktur der Datenbank}{\s21\f1\fs28\b\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch Tabelle: Projekt}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\*\abitableprops table-column-props:4.12cm/3.12cm/3.12cm/3.12cm/3.62cm/; table-sdh:0x24e3a80}\par{\*\abicellprops left-attach:0; right-attach:1; top-attach:0; bot-attach:1}{
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2371\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4140\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5909\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7677\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9730
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\b\lang1031{\*\listtag0}\abinodiroverride\ltrch Project-ID (PK)}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\b\lang1031{\*\listtag0}ID-File}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:0; right-attach:1; top-attach:1; bot-attach:2}\row
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx2371\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx4140\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5909\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7677\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9730
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}PJ-01}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}\row}{\*\abiendtable}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch Tabelle: ID-Files}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\*\abitableprops table-sdh:0x278bd50}\par{\*\abicellprops left-attach:0; right-attach:1; top-attach:0; bot-attach:1}{
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\b\lang1031{\*\listtag0}\abinodiroverride\ltrch ID-File (PK)}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\b\lang1031{\*\listtag0}Track}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:0; right-attach:1; top-attach:1; bot-attach:2}\row
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}1#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:0; right-attach:1; top-attach:2; bot-attach:3}\row
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:2; bot-attach:3}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}1#2}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:2; bot-attach:3}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:2; bot-attach:3}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:2; bot-attach:3}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:0; right-attach:1; top-attach:3; bot-attach:4}\row
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}#2}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:3; bot-attach:4}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}2#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:3; bot-attach:4}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:3; bot-attach:4}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:3; bot-attach:4}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}\row}{\*\abiendtable}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0} }{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch Tabelle: Tracks}{\s28\f0\fs24\lang1031{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\*\abitableprops table-sdh:0x24d2fc0}\par{\*\abicellprops left-attach:0; right-attach:1; top-attach:0; bot-attach:1}{
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}\abinodiroverride\ltrch Track-ID (PK)}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}Instrument#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}Instrument#2}\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}...}\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:0; bot-attach:1}
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}...}\cell{\*\abiendcell}{\*\abicellprops left-attach:0; right-attach:1; top-attach:1; bot-attach:2}\row
+\trowd \itap1\trgaph36\trql\trrh0\trleft0\trautofit1\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx1833\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx3631\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx5429\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx7227\clvertalt\cltxlrtb\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cellx9025
+\pard\plain\ltrpar\ql\s28\intbl\itap1{\s28\f0\fs24\lang1031{\*\listtag0}1#1}\cell{\*\abiendcell}{\*\abicellprops left-attach:1; right-attach:2; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:2; right-attach:3; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:3; right-attach:4; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}{\*\abicellprops left-attach:4; right-attach:5; top-attach:1; bot-attach:2}
+\pard\plain\ltrpar\ql\s28\intbl\itap1\cell{\*\abiendcell}\row}{\*\abiendtable}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1031{\*\listtag0}\par}}
