@@ -34,7 +34,7 @@ AudioTool.MetaDateView = (function() {
  			cells[i].setAttribute("contentEditable","false");
  		}
 
-	}
+	};
 	
 	var addRow = function(event){
 	   
@@ -51,14 +51,14 @@ AudioTool.MetaDateView = (function() {
 	    row.insertCell(2).innerHTML= age.value;
 
 	    //$(that).trigger("rowAdded");
-	}
+	};
 
 
 	var deleteRow = function(obj){  
 	    var index = obj.parentNode.parentNode.rowIndex;
 	    var table = document.getElementById("myTableData");
 	    table.deleteRow(index);	    
-	}
+	};
  
  	//Tabelle wird erzeugt, je nachdem wie groß die übergebenen Arrays sind
 	var createMetaDateTable = function(metaDateTitles, metaDateValues){
@@ -101,7 +101,7 @@ AudioTool.MetaDateView = (function() {
 	       
 	    myTableDiv.appendChild(table);
 	    //$(that).trigger("tableCreated");	    
-	}
+	};
 
 	//Button wird erstellt und sichtbar gemacht, außerdme der andere disabled
 	//geht dann in die funktion changeInputTypeInTable
@@ -121,7 +121,7 @@ AudioTool.MetaDateView = (function() {
 	    //wird der button geklickt so kommt man in die untere funktion
 	    changeInputTypeInTable();
 
-	}
+	};
  
  
 
@@ -129,7 +129,7 @@ AudioTool.MetaDateView = (function() {
     
    		console.log("Page load finished");
  
-	}
+	};
 
 	//zellen werden editierbar gemacht
 	var changeInputTypeInTable = function(){
@@ -140,7 +140,7 @@ AudioTool.MetaDateView = (function() {
  			cells[i].setAttribute("contentEditable","true");
  		}
  		
- 	}
+ 	};
 
  	//wenn man auf den plus buttpn klickt werden neue zellen erzeugt
 	var createCells = function(){
@@ -156,10 +156,14 @@ AudioTool.MetaDateView = (function() {
 	    tr.appendChild(td);
 	   	tr2.appendChild(td2);
 
-	}
-	
+	};
+	var showMetaForSelectedTrack=function(selectedTrack){
+		console.log(selectedTrack);
+	};
+
+	that.showMetaForSelectedTrack=showMetaForSelectedTrack;
 	that.createMetaDateTable = createMetaDateTable;
 	that.createCells = createCells;
 	that.init = init;
 	return that;
-}());
+}()); 

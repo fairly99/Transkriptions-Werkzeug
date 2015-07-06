@@ -2,12 +2,13 @@ AudioTool.MainController = (function() {
 	var that = {};
 	var waveView = null;
 	var mainModel=null;
-	
+	var metaDateView=null;
 	
 	var init = function() {
 	waveView= AudioTool.WaveView.init();
 	mainModel=AudioTool.MainModel;
-	mainModel.init(); 
+	mainModel.init();
+	metaDateView=AudioTool.MetaDateView.init();
 	$(mainModel).on("waveInitialised",waveShown);
 	$(waveView).on("pointMade",makeAPoint);
 	$(mainModel).on("pointSaved",twoPointsCombine);
@@ -16,8 +17,22 @@ AudioTool.MainController = (function() {
 	$(mainModel).on("trackClicked",onTrackClicked);
 	//$(waveView).on("trackSelected",onTrackSelected);
 	$(mainModel).on("trackNotClicked",onTrackNotClicked);
-	};  
-    
+	$(waveView).on("dataChanged",onDataChanged);
+	$(waveView).on("restart",restart);
+	$(waveView).on("segmentMadeNowPlay",playSegmentInLoop);
+	//$(mainModel).on("segmentPlayed",onSegmentPlayed);
+	};    
+     
+ 
+	var playSegmentInLoop=function(event,startTime,endTime){
+		mainModel.playSegment(startTime,endTime);
+	};
+    var restart=function(event,instance){
+    	mainModel.restart(instance);
+    };
+    var onDataChanged=function(event,dataValue){
+    	mainModel.startTool(dataValue);
+    };
 	var onTrackNotClicked=function(event,tracks,track){
 		waveView.setStandardColor(tracks,track);
 	}; 
@@ -26,6 +41,7 @@ AudioTool.MainController = (function() {
 		//console.log("aufNenTrackGeklickt");
 		//console.log(track);
 		waveView.colorSelectedWave(track,allTracks);
+		metaDateView.showMetaForSelectedTrack(track);
 	};
 	
 	var waveClicker=function (event,time) {
