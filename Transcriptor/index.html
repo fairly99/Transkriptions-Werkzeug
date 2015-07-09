@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head> 
+  <head>  
     <meta charset="utf-8">
     <title>Peaks.js Demo Page</title>
     <link rel="stylesheet" href="res/css/styles.css">
   </head>
   <body> 
- 
+    
+    <div id="audioTool">
       <div id="titles">
         <h1>Peaks.js Frontend Demo</h1>
       </div> 
@@ -14,20 +15,24 @@
       <div id="first-waveform-visualiser-container"></div>
  
       <div id="demo-controls">
-        <audio controls=controls>
-          <source src="./test_data/tycho.mp3" type="audio/mpeg">
+        <audio id="audioPanel" controls=controls>
+          <source id="audioSource" src="./test_data/tycho.mp3" type="audio/mpeg">
           <!--<source src="./test_data/sample.ogg" type="audio/ogg">-->
           Your browser does not support the audio element.
         </audio> 
- 
+    
         <button data-action="zoom-in" id="zoomInButton">zoom in</button>
         <button data-action="zoom-out"id="zoomOutButton">zoom out</button>
         <button data-action="add-segment" id="segmentButton">Track setzen</button>
         <button data-action="add-point" id="pointButton">Punkt setzen</button>
         <button data-action="log-data">Log segments/points</button>
-        <button id="deleteSegment">Grau markierten Tracks löschen</button>
-      </div>
+        <button id="deleteSegment">Markierten Track löschen</button>
+      </div> 
 
+      <select id="selectData">
+		  <option value="one">Datei 1</option>
+		  <option value="two">Datei 2</option>
+	</select>
       <form class="form-horizontal" id="myBigForm" role="form"   action="sendToDataBase.php" method="post" >
       <input type="text"  name="vermittler" class="vermittler1"id="vermittler">
       <button  class="btn btn-default"id="sendToDatabase" >senden</button>
@@ -38,16 +43,19 @@
         <button type="button" id="createButton">Werte ändern</button>
          <button id="plusButton">+</button>
          <button id="stopChangingButton">Ändern beenden</button>
+      </div> 
       </div>
-
+      <div class="dragDrop" draggable="true">
+        <p class="myText">Drag'n'drop your audiofile here!</p>
+      </div>
       <script src="libs/jquery-2.0.3.min.js"></script>
       <script src="libs/require.js"></script>
       <script src="src/AudioTool.js"></script>
-      <script src="src/StartPeaks.js"></script>
       <script src="src/MainController.js"></script>
       <script src="src/MainModel.js"></script>
       <script src="src/WaveView.js"></script>
       <script src="src/MetaDateView.js"></script>
+      <script src="src/StartPeaks.js"></script>
       
       
       <script>
