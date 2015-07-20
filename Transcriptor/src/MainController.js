@@ -4,8 +4,9 @@ AudioTool.MainController = (function() {
 	var mainModel=null;
 	var metaDateView=null;
 	var dragView=null;
-	
+	 
 	var init = function() {
+ 
 	dragView=AudioTool.StartPeaks.init();
 	waveView= AudioTool.WaveView.init();
 	mainModel=AudioTool.MainModel;
@@ -23,7 +24,19 @@ AudioTool.MainController = (function() {
 	$(waveView).on("dataChanged",onDataChanged);
 	$(waveView).on("restart",restart);
 	$(waveView).on("segmentMadeNowPlay",playSegmentInLoop);
-	
+
+
+/*
+	    $('#circle').circleProgress({
+        value: 1.0,
+        size: 80,
+        fill: {
+            gradient: ["red", "orange"]
+        }
+
+    });
+	$('#circle').circleProgress('redraw'); // use current configuration and redraw
+*/
 	//$(mainModel).on("segmentPlayed",onSegmentPlayed);
 	};    
      

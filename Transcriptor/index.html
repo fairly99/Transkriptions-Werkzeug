@@ -11,7 +11,7 @@
       <div id="titles">
         <h1>Peaks.js Frontend Demo</h1>
       </div> 
-
+ 
       <div id="first-waveform-visualiser-container"></div>
  
       <div id="demo-controls">
@@ -37,7 +37,7 @@
       <input type="text"  name="vermittler" class="vermittler1"id="vermittler">
       <button  class="btn btn-default"id="sendToDatabase" >senden</button>
       </form>
-
+ 
       <!-- Metadaten-tabelle -->
        <div id="myDynamicTable">
         <button type="button" id="createButton">Werte ändern</button>
@@ -48,6 +48,13 @@
       <div class="dragDrop" draggable="true">
         <p class="myText">Drag'n'drop your audiofile here!</p>
       </div>
+      <!--<progress id='progress' max='70'><span>0</span>%</progress>-->
+      <div id="loadingProgress">
+      <div class="ball"></div>
+      <div class="ball1"></div>
+      </div>
+      <!--<div class="se-pre-con"></div>-->
+
       <script src="libs/jquery-2.0.3.min.js"></script>
       <script src="libs/require.js"></script>
       <script src="src/AudioTool.js"></script>

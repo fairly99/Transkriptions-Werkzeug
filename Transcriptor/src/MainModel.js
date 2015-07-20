@@ -12,7 +12,7 @@ AudioTool.MainModel = (function() {
   //getValue();  
   audio = document.getElementById('audioPanel');
   source=document.getElementById('audioSource');
-	startTool("");
+	//startTool("");
   myAudio=document.getElementById('audioPanel');
   return that;
 	}; 
@@ -52,9 +52,38 @@ AudioTool.MainModel = (function() {
           window['peaksInstance'] = instance;
           $(that).trigger("waveInitialised",[instance]);
         });*/
-  };
+  }; 
 	var startTool=function(dataValue){
-		requirejs.config({
+            $("#loadingProgress").css("visibility","visible");
+        var jqxhr = $.get( "sendToDataBase.php", function(data) {
+			  alert(data);
+			   })
+			  .done(function() {          
+          $("#loadingProgress").css("visibility","hidden");
+          generateWaveform(dataValue);
+          $("#audioTool").css("visibility","visible");
+			  }) 
+			  .fail(function() {
+			    alert( "error" );
+			  })
+		/*	  .always(function() {
+			    alert( "finished" );
+			  });*/
+			 
+			// Perform other work here ...
+			 
+			// Set another completion function for the request above
+			/*jqxhr.always(function() {
+			  alert( "second finished" );
+			});*/
+        
+
+   
+
+		};  
+
+	var generateWaveform=function(dataValue){
+        requirejs.config({
           paths: {
             peaks: 'src/main',
             EventEmitter: 'libs/eventemitter2',
@@ -62,8 +91,7 @@ AudioTool.MainModel = (function() {
             'waveform-data': 'libs/waveform-data.min'
           }
         });
-        
-        require(['peaks'], function(Peaks){
+            require(['peaks'], function(Peaks){
           var options = { 
             container: document.getElementById('first-waveform-visualiser-container'),
             mediaElement: document.querySelector('audio'),
@@ -80,7 +108,15 @@ AudioTool.MainModel = (function() {
           var obj_url=window.URL.createObjectURL(audioFile);
           source.src=obj_url;
           audio.load();
-          audio.play();
+          //audio.play();
+
+     /*$.ajax({
+        url : 'sendToDataBase.php', // give complete url here
+        type : 'post',
+        success : function(data){
+            alert(data);
+        }
+    });*/
           var peaksInstance = Peaks.init(options);
           window['peaksInstance'] = peaksInstance;
           $(that).trigger("waveInitialised",[peaksInstance]);
@@ -97,10 +133,7 @@ AudioTool.MainModel = (function() {
             //var myArray=peaksInstance.points.getPoints();
           });
         });
-   
-
-		};  
-	
+  };
   var setPoint=function(point){
     pointCounter++;
     setPoints= peaksInstance.points.getPoints();

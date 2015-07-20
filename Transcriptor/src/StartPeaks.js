@@ -1,11 +1,10 @@
 AudioTool.StartPeaks = (function() {
 		var that = {};
 		var myDropArea;
-		var files=null;
+		var files=null; 
 		var $audio=null;
-		var $source=null;
+		var $source=null; 
 		 var init = function(){
-
 		 	$myDrop=$(".dragDrop");
 			myDropArea=document.querySelector(".dragDrop");
 			myDropArea.addEventListener('dragstart',handleDragStart,false);
@@ -31,7 +30,7 @@ AudioTool.StartPeaks = (function() {
 		  // this / e.target is the current hover target.
 		  this.classList.add('over');
 		}
-
+ 
 		function handleDragLeave(e) {
 		  this.classList.remove('over');  // this / e.target is previous target element.
 		}
@@ -50,7 +49,7 @@ AudioTool.StartPeaks = (function() {
 		 myDropArea.classList.remove('over');
 		 //URL='index.html?'+files;
 		 $myDrop.css("display","none");
-		 $("#audioTool").css("visibility","visible");
+		 
 		 //AudioTool.MainController.init();
 		 $(that).trigger("dragged",[files]);
 		 //window.open (URL,'_self',false);
